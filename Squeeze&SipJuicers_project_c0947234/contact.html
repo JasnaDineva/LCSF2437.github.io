@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squeeze & Sip Juicers - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+         <!-- Header Section with Hamburger Menu -->
+        <header>
+            <div class="logo">
+                <a href="contact.html">
+                    <img src="images/squeeze_and_sip_logo (2).png" alt="Squeeze and Sip Logo">
+                </a>
+            </div>
+            <nav>
+            <!-- Menu Items -->
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        </header>
+        <!-- Main Content Section -->
+        <main>
+            <div id="contact">
+                <h2>Get in Touch with Us</h2>
+                <p>We'd love to hear from you! Whether you have questions about our products, need support, or want to get in touch, feel free to contact us.</p>
+                
+                <!-- Contact Details Section -->
+                <h4 class="tel-num"><a href="tel:8005551234">(800)555-1234</a></h4>
+                <h4>Email us: <a href="mailto:support@squeezeandsip.com" class="contact-email-link">support@squeezeandsip.com</a></h4>
+                <h4>Visit us at: 1234 Juicer Blvd, Toronto, ON, Canada</h4>
+
+                <!-- Google Map Section (Toronto Location) -->
+                <div class="map">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.90977283596!2d-79.54286439581442!3d43.718370958010574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1732815214133!5m2!1sen!2sca"
+                        width="600" height="450" allowfullscreen="" class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Contact Form Section -->
+            <div id="form">
+                <h2>Fill out the form below and we'll get back to you as soon as possible.</h2>
+            
+                <form>
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName" required>
+            
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+            
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Inquiry Type</legend>
+                        <p>Please select the reason for your inquiry:</p>
+                        <label for="productInquiry">Product Inquiry</label>
+                        <input type="checkbox" name="inquiryType" id="productInquiry" value="Product Inquiry">
+                           
+                        <label for="support">Support</label>
+                        <input type="checkbox" name="inquiryType" id="support" value="Support">
+                            
+                        <label for="partnership">Partnership Opportunities</label>
+                        <input type="checkbox" name="inquiryType" id="partnership" value="Partnership">
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>How Did You Hear About Us?</legend>
+                        <label for="reference">Where did you find out about Squeeze & Sip Juicers?</label>
+                        <select name="reference" id="reference">
+                            <option value="ad">Advertisement</option>
+                            <option value="friend">Friend</option>
+                            <option value="google">Google</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+            
+                        <label for="questions">Any Questions?</label>
+                        <textarea id="questions" name="questions" rows="5"></textarea>
+                    </fieldset>
+            
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+            
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Squeeze & Sip Juicers. All Rights Reserved.</p>
+            <p><a href="mailto:support@squeezeandsip.com">support@squeezeandsip.com</a></p>
+        </footer>
+
+    </div>
+    <script src="Juicer/scripts/scripts.js"></script>
+</body>
+</html>

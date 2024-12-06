@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page - Squeeze & Sip Juicers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+       <!-- Header Section with Hamburger Menu -->
+    <header>
+        <div class="logo">
+            <a href="products.html">
+                <img src="images/squeeze_and_sip_logo (2).png" alt="Squeeze and Sip Logo">
+            </a>
+        </div>
+        <nav>
+            <!-- Menu Items -->
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <!-- Cart and Checkout Buttons -->
+        <div class="cart-checkout-container">
+            <button class="cart-button" onclick="viewCart()">Cart (0)</button>
+            <button class="checkout-button" onclick="checkout()">Checkout</button>
+        </div>
+    </header>
+    
+
+    <main>
+        <section class="juicer-collection">
+            <h1>Our Juicer Collection</h1>
+            <p>
+                Explore our top-quality juicers, designed to bring freshness and health to your kitchen. 
+                Choose from our categories below:
+            </p>
+        </section>
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="btn" onclick="scrollToSection('centrifugal')">Centrifugal Juicers</button>
+            <button class="btn" onclick="scrollToSection('masticating')">Masticating Juicers</button>
+            <button class="btn" onclick="scrollToSection('cold-press')">Cold Press Juicers</button>
+        </div>
+
+        <!-- Centrifugal Juicers Section -->
+        <section id="centrifugal">
+            <h2>Centrifugal Juicers</h2>
+            <p>Centrifugal juicers are perfect for those who want quick and efficient juice extraction. Ideal for fruits and vegetables.</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/centrifugal_juicer_resized_450x300.jpg" alt="Centrifugal Juicer 1">
+                    <h3>Quick Juice Pro</h3>
+                    <p>Price: $99.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        Perfect for quick and efficient juice extraction, this juicer is ideal for both fruits and vegetables.
+                    </div>
+                   </div>
+                <div class="product-card">
+                    <img src="images/centrifugal_juicer_resized_450x300.jpg" alt="Centrifugal Juicer 2">
+                    <h3>Fresh Flow 200</h3>
+                    <p>Price: $129.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        A powerful juicer designed to retain more nutrients and provide smooth, delicious juices every time.
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/centrifugal_juicer_resized_450x300.jpg" alt="Centrifugal Juicer 3">
+                    <h3>Speed Extractor</h3>
+                    <p>Price: $149.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        High-speed juicing technology for those who need their juice fast and fresh!
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Masticating Juicers Section -->
+        <section id="masticating">
+            <h2>Masticating Juicers</h2>
+            <p>Masticating juicers use a slow and steady process to retain nutrients and produce high-quality juice with minimal foam.</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/masticating1_resized.jpg" alt="Masticating Juicer 1">
+                    <h3>Health Squeeze</h3>
+                    <p>Price: $189.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                      The Health Squeeze masticating juicer is designed to deliver the highest quality juice with minimal foam, preserving the natural flavor and nutrients of your ingredients.
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/masticating1_resized.jpg" alt="Masticating Juicer 2">
+                    <h3>Nutrient Max</h3>
+                    <p>Price: $229.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        The Nutrient Max is built for efficiency and quality. 
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/masticating1_resized.jpg" alt="Masticating Juicer 3">
+                    <h3>Power Press Elite</h3>
+                    <p>Price: $259.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        The Power Press Elite is a top-of-the-line masticating juicer, designed for those who want professional-grade juice with minimal effort. 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cold Press Juicers Section -->
+        <section id="cold-press">
+            <h2>Cold Press Juicers</h2>
+            <p>Cold press juicers deliver premium juice quality by preserving nutrients and natural flavors through gentle extraction.</p>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/triturating juicer.jpg" alt="Cold Press Juicer 1">
+                    <h3>Pure Extract XL</h3>
+                    <p>Price: $299.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        The Pure Extract XL is a premium cold press juicer designed to deliver the freshest, most nutrient-dense juice.
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/triturating juicer.jpg" alt="Cold Press Juicer 2">
+                    <h3>Vital Juice Master</h3>
+                    <p>Price: $349.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        The Vital Juice Master is the ideal juicer for anyone looking to improve their overall health and wellness.
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/triturating juicer.jpg" alt="Cold Press Juicer 3">
+                    <h3>Eco Fresh Press</h3>
+                    <p>Price: $399.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                    <div class="description">
+                        The Eco Fresh Press cold press juicer combines sustainability with high-performance juice extraction.
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+     <!-- Footer Section -->
+     <footer>
+        <div class="footer-buttons">
+        <p>&copy; 2024 Squeeze and Sip Juicers. All Rights Reserved.<a href="contact.html">Contact Us</a></p>
+        <div class="social-links">
+            <p>Follow us on:</p> <a href="https://www.facebook.com" target="_blank"> Facebook</a>
+                |<a href="https://www.instagram.com" target="_blank"> Instagram</a></p>
+        </div> 
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
